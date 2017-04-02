@@ -13,15 +13,10 @@ int main()
 
 {
 	int N;
-	//N represents the number of primes you would like to be printed
 	int prime = 3;
-	//prime represents the number being tested for whether or not it is prime
 	int prime_divisor;
-	//prime_divisor represents the number that will test if the number is prime
 	int next;
-	//This will hold the value of the upcoming prime
 	int count = 0;
-	//Count will keep track of how many values have been printed
 	int displayCount = 0;
 	const int displayMax = 4;
 	cout << "Enter a number, and I will display all of the" << endl;
