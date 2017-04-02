@@ -1,17 +1,8 @@
-# The-Spot
-/*Enter n (to print primes from 3 to n): 3 is a prime number.
-5 is a prime number.
-7 is a prime number.
-11 is a prime number.
-*/
 #include<iostream>
 #include <cstdlib>
-
 using namespace std;
+int main(){
 
-int main()
-
-{
 	int N;
 	int prime = 3;
 	int prime_divisor;
